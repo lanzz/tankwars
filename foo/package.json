@@ -1,0 +1,15 @@
+{
+  "name": "serverlesscamp-web",
+  "version": "1.0.0",
+  "description": "Tank controller for https://tankwars.serverless.camp/",
+  "main": "foo.js",
+  "scripts": {
+    "init": "claudia create --region us-east-1 --api-module foo",
+    "deploy": "claudia update"
+  },
+  "author": "Mihail Milushev <mihail.milushev@lanzz.org>",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-api-builder": "^2.0.0"
+  }
+}
